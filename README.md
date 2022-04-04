@@ -17,6 +17,7 @@ Open the "Harmonizer.scd" file in SuperCollider, select all the code and execute
 c = Buffer.read(s,~path ++ "Nirvana.wav");
 
 # Interface:
+
 In the upper part of the GUI interface, we can find the different voices that take part in the harmonization as well as their volumes and the pan of each one. On the left, it is placed the original input of the signal, and then the different voices.
 In the lower part, we find the reverb effect and its different parameters to be configured by the user (from left to right): volume of the reverb (WetAmp), room, wet or dry and damp. 
 Finally, on the right side there are the different options to choose the input, the stop button and some parameters of the harmonizer and the shift of the different voices. First, there is a menu that allows to choose the key of the song. Then, there is a slider that controls the pitch dispersion (pitch disp), which makes the second voice vary from the original, making them not exactly the same even though it is shifted, giving an error range in the frequency for the harmonizing voice. The last slider controls the time dispersion (time disp) and does the same as the previous slider but in time, making the second voice not sound at the same time but a little before or a little after.
