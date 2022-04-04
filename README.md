@@ -17,6 +17,7 @@ Open the "Harmonizer.scd" file in SuperCollider, select all the code and execute
 c = Buffer.read(s,~path ++ "Nirvana.wav");
 
 # Interface:
+![GUI](https://github.com/polimi-cmls-22/group13-hw-SC-FourierSerious/blob/main/GUI.png?raw=true)
 
 In the upper part of the GUI interface, we can find the different voices that take part in the harmonization as well as their volumes and the pan of each one. On the left, it is placed the original input of the signal, and then the different voices.
 In the lower part, we find the reverb effect and its different parameters to be configured by the user (from left to right): volume of the reverb (WetAmp), room, wet or dry and damp. 
